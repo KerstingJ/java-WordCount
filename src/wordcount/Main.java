@@ -75,7 +75,7 @@ public class Main
         });
 
         for (HashMap.Entry<String, Integer> entry: sortedTop50) {
-            System.out.println(entry);
+            System.out.println(entry.getKey() + " occurs " + entry.getValue() + " times.");
         }
     }
 }
